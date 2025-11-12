@@ -16,6 +16,13 @@ return array(
 		'supports' => array(
 			'html' => false
 		),
+		'attributes' => array(
+			'message' => array(
+				'type' => 'string',
+				'source' => 'html',
+				'selector' => 'p'
+			)
+		),
 		'textdomain' => 'custom-message-block',
 		'editorScript' => 'file:./index.js',
 		'editorStyle' => 'file:./index.css',
